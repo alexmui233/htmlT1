@@ -5,30 +5,106 @@
         <meta name="author" content="Mui Tin Yau alex">
         <meta name="keywords" content="Mui Tin Yau alex, Mui Tin Yau, MuiTinYau, muitinyau, 梅天佑">
         <title>alex personal web page</title>
+        <style>
+        ul{
+            list-style-type:none;
+            text-align: center;
+            font-size:20px;
+            display: inline-block;
+        }
+        li{
+            float:left;/*改动的地方*/
+            width:auto;
+            padding: 10px 5px;
+            background-color: none;
+            border-top: 2px solid white;
+            border-bottom: 1px solid white;
+            
+        }
+        a:link{
+            color:#fff;
+            text-decoration:none;
+        }
+        a.active{
+            color: yellow;
+        }
+        a.visited{
+            color: red;
+        }
+        a:hover{ /*鼠标移动到点击位时的样式，active指点击过后的样式*/
+			color: #111;
+		}
+        a{
+            display:block;/*整体变为可点击区域，而不只是字*/
+        }
+        </style>
     </head>
     <body style="background-color:powderblue;color: orange">
-        <h1>
-            Mui Tin Yau
-        </h1>
-        <p>
-            fuck it html
-        </p>
-        <picture></picture>
-        <img src="personal webpage face pic.jpg"  width="200" height="250" alt="This is a personal picture.">
-        <a href="https://learn.polyu.edu.hk/ultra/courses/_97528_1/cl/outline">learnpolyu</a> 
-        <br>
-        Email: muitinyau@gmail.com You can click 
-        <a href="mailto:muitinyau@gmail.com">here</a>
-        to send Email to me.
-        <iframe src="https://learn.polyu.edu.hk/ultra/courses/_97528_1/cl/outline" frameborder="0"></iframe>
-        <p>At Mozilla, we’re a global community of</p>
+        
+        <div style="text-align: center; overflow: hidden; margin: 50px auto; width: 600px;">
 
-        <ul>
-        <li>technologists</li>
-        <li>thinkers</li>
-        <li>builders</li>
-        </ul>
+            <img src="personal webpage face pic.jpg"  width="200" height="250" alt="This is a personal picture." style="float:left; padding: 20px;">
+            <div style="float: right; padding: 50px 30px 0px 0px; font-size: 30px;">
+                <h1>Mui Tin Yau</h1>
+                <h2>Alex</h2>
+            </div> 
 
-        <p>working together ... </p>
+        </div>
+        <div style="text-align: center;">
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#Education & Experience">Education & Experience</a></li>
+                <li><a href="#Skills & Languages">Skills & Languages</a></li>
+                <li><a href="#Interests">Interests</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+
+        </div>
+    
+        <div id="about" style="height: 400px; background-color: blue;">
+            <h1 style="font-style: italic; font-family: 'Courier New', Courier, monospace;">About</h1>
+            <a href="https://learn.polyu.edu.hk/ultra/courses/_97528_1/cl/outline">learnpolyu</a> 
+            <br>
+            Email: muitinyau@gmail.com You can click 
+            <a href="mailto:muitinyau@gmail.com">here</a>
+            to send Email to me.
+        </div> 
+           
+        <div id="Education & Experience" style="height: 400px; background-color: blue;">
+            <h1 style="font-style: italic; font-family: 'Courier New', Courier, monospace;">About</h1>
+            <a href="https://learn.polyu.edu.hk/ultra/courses/_97528_1/cl/outline">learnpolyu</a> 
+            <br>
+            Email: muitinyau@gmail.com You can click 
+            <a href="mailto:muitinyau@gmail.com">here</a>
+            to send Email to me.
+        </div>  
+
+        <div id="Skills & Languages" style="height: 400px; background-color: blue;">
+            <h1 style="font-style: italic; font-family: 'Courier New', Courier, monospace;">About</h1>
+            <a href="https://learn.polyu.edu.hk/ultra/courses/_97528_1/cl/outline">learnpolyu</a> 
+            <br>
+            Email: muitinyau@gmail.com You can click 
+            <a href="mailto:muitinyau@gmail.com">here</a>
+            to send Email to me.
+        </div>  
+
+        <div id="Interests" style="height: 400px; background-color: blue;">
+            <h1 style="font-style: italic; font-family: 'Courier New', Courier, monospace;">About</h1>
+            <a href="https://learn.polyu.edu.hk/ultra/courses/_97528_1/cl/outline">learnpolyu</a> 
+            <br>
+            Email: muitinyau@gmail.com You can click 
+            <a href="mailto:muitinyau@gmail.com">here</a>
+            to send Email to me.
+        </div>  
+
+        <div id="contact" style="height: 400px; background-color: blue;">
+            <h1 style="font-style: italic; font-family: 'Courier New', Courier, monospace;">About</h1>
+            <a href="https://learn.polyu.edu.hk/ultra/courses/_97528_1/cl/outline">learnpolyu</a> 
+            <br>
+            Email: muitinyau@gmail.com You can click 
+            <a href="mailto:muitinyau@gmail.com">here</a>
+            to send Email to me.
+        </div>
+
     </body>
 </html>
